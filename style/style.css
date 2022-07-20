@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Libre+Baskerville&family=Lobster&family=The+Nautigal&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Libre+Baskerville&family=Lobster&family=The+Nautigal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Libre+Baskerville&family=Lobster&family=The+Nautigal&display=swap');
 body{
     background-color: black;
 }
 .banner-container{
+    background-color: rgb(15, 15, 15);
     box-shadow: 30px 30px 80px rgba(0, 255, 140, 0.238);
     border: 2px solid rgb(0, 255, 140);
     display: flex;
@@ -15,18 +17,40 @@ body{
 .banner-text{
     color: rgb(0, 255, 140);
     width: 100%;
+    margin-right: 20px;
+    padding-right: 10px;
 }
 .banner-text h2{
     font-size: 25px;
     font-family: 'Gulzar', serif;
     font-family: 'Libre Baskerville', serif;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
 }
 .banner-text h1{
     font-size: 65px;
     font-family: 'Gulzar', serif;
     font-family: 'Libre Baskerville', serif;
     text-shadow: 10px 10px 50px  rgb(0, 255, 140); 
+    margin-top: 0px;
+    padding-top: 1px;
+}
+.show-time{
+    color: blanchedalmond;
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
 
+#team-name{
+    color:#ffff;
+    font-size: 30px;
+    font-family: 'The Nautigal', cursive;
+    font-family: 'Gulzar', serif;
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: 5px 5px 2px rgb(244, 63, 244);
 }
 .banner-text a{
     text-decoration: none;
@@ -43,9 +67,68 @@ body{
     border: 2px solid rgb(93, 3, 3);
     border-radius: 20px;
     box-shadow: 10px 10px 50px rgba(250, 0, 0, 0.505);
+    margin-bottom: 30px;
 }
-    
-.banner-image:hover{
-    box-shadow: 0px 20px 70px rgba(224, 255, 255, 0.157);
-    
+.banner-image{
+    display: flex;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.ball{
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.man{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+/*-------------------------------
+-----------2nd section-----------
+---------------------------------*/
+.blogs{
+    display: flex;
+    justify-content:center;
+
+}
+.side-manu{
+    text-align: center;
+    width: 100%;
+    box-shadow:  0px 2px 12px rgba(0, 250, 134, 0.451);
+    border: 1.5px solid rgba(0, 250, 134, 0.451);;
+    height: 350px;
+    width: 300px;
+    margin: 60px;
+}
+.side-manu div{
+    color: antiquewhite;
+    background-color:rgb(92, 247, 149) ;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    margin: 30px 10px;
+    padding: 20px 15px;
+}
+.side-manu div:hover{
+    color: aqua;
+    background-color: black;
+    border: 2px solid aqua;
+}
+.side-manu div a{
+    text-decoration: none;
+    color: rgb(1, 44, 12);
+}
+.list-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 15px;
+    padding-top: 20px;
+}
+.demo-list{
+    color: gray;
+    background-color:lightgray;
+    box-shadow: 5px 5px 10px;
+    border-radius: 15px;
 }
