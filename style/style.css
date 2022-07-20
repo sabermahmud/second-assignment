@@ -1,9 +1,16 @@
+/*-----------------------------------
+            Google-font
+-------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Libre+Baskerville&family=Lobster&family=The+Nautigal&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Libre+Baskerville&family=Lobster&family=The+Nautigal&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Libre+Baskerville&family=Lobster&family=The+Nautigal&display=swap');
+/* ------------------------------------------------------------------------------------------------------------ */
 body{
     background-color: black;
 }
+/* ------------------------------
+           First Section 
+---------------------------------*/
 .banner-container{
     background-color: rgb(15, 15, 15);
     box-shadow: 30px 30px 80px rgba(0, 255, 140, 0.238);
@@ -43,7 +50,6 @@ body{
     padding-bottom: 15px;
     margin-bottom: 15px;
 }
-
 #team-name{
     color:#ffff;
     font-size: 30px;
@@ -72,27 +78,19 @@ body{
     padding: 0px;
     margin: 0px;
 }
-.ball{
-    margin-right: 0px;
-    padding-right: 0px;
-}
-.man{
-    margin-left: 0px;
-    padding-left: 0px;
-}
+
 /*-------------------------------
 -----------2nd section-----------
 ---------------------------------*/
 .blogs{
     display: flex;
     justify-content:center;
-
 }
 .side-manu{
     text-align: center;
     width: 100%;
     box-shadow:  0px 2px 12px rgba(0, 250, 134, 0.451);
-    border: 1.5px solid rgba(0, 250, 134, 0.451);;
+    border: 1.5px solid rgba(0, 250, 134, 0.451);
     height: 350px;
     width: 300px;
     margin: 60px;
@@ -124,11 +122,80 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 10px;
     grid-column-gap: 15px;
-    padding-top: 20px;
+    box-shadow: 0px 2px 12px rgba(0, 250, 134, 0.451);
+    border: 1.5px solid rgba(0, 250, 134, 0.451);
+    padding: 20px;
+    margin: 50px;
+}
+.list-container:hover{
+    border: 2px solid aqua;
+    border-radius: 25px;
 }
 .demo-list{
-    color: gray;
+    color:aqua;
     border: 2px solid aqua;
     border-radius: 15px;
-    padding: 5px;
+    padding: 5px;   
+}
+.button{
+    margin-top: 15px;
+}
+.button a{
+    font-size: 20px;
+    text-decoration: none;
+    color:black;
+    background-color: aqua;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.demo-info{
+    display: flex;
+    justify-content: space-around;
+}
+.demo-info .duration{
+    box-shadow: 0px 2px 12px rgba(0, 250, 134, 0.451);
+    border-radius: 10px;
+    padding: 2px 10px;
+    padding-top: 10px;
+    margin: 2px;
+}
+.demo-info .comment{
+    box-shadow: 0px 2px 12px rgba(0, 250, 134, 0.451);
+    border-radius: 10px;
+    padding: 2px 10px;
+    padding-top: 10px;
+    margin: 2px;
+}
+.text{
+    font-size: 12px;
+}
+/*--------------------------
+         Last Section
+---------------------------*/
+.footer-container{
+    box-shadow: 2px 2px 10px rgb(0, 255, 110);
+    margin: 10px 0px;
+    padding: 5px 0px;
+}
+footer{
+    color: rgb(0, 255, 110);
+    text-align: center;
+}
+.footer-text{
+    display: flex;
+    justify-content:center;
+}
+.text-footer{
+    margin: 20px;
+    padding: 10px;
+}
+.logos{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.icon{
+    font-size: 25px;
+    margin:15px;
+    padding: 10px;
 }
