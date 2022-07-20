@@ -54,19 +54,16 @@ body{
 }
 .banner-text a{
     text-decoration: none;
-    color: rgb(251, 11, 11);
+    color: rgb(0, 255, 140);
     font-size: 25px;
-    border: 2px solid rgb(220, 2, 2);
+    border: 2px solid rgb(0, 255, 140);
+    border-radius: 20px;
     padding: 15px 20px;
     margin: 30px 20px;
 }
 .banner-text a:hover{
     font-weight: 700;
-    color: black;
-    background-color: red;
-    border: 2px solid rgb(93, 3, 3);
-    border-radius: 20px;
-    box-shadow: 10px 10px 50px rgba(250, 0, 0, 0.505);
+    box-shadow: 5px 5px 30px rgb(0, 255, 140);
     margin-bottom: 30px;
 }
 .banner-image{
@@ -119,6 +116,9 @@ body{
     text-decoration: none;
     color: rgb(1, 44, 12);
 }
+.side-manu div a:hover{
+    color: aqua;
+}
 .list-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -128,7 +128,7 @@ body{
 }
 .demo-list{
     color: gray;
-    background-color:lightgray;
-    box-shadow: 5px 5px 10px;
+    border: 2px solid aqua;
     border-radius: 15px;
+    padding: 5px;
 }
