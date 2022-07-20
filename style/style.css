@@ -1,0 +1,17 @@
+.banner img,p{
+    display: flex;
+}
+.banner{
+    display: flex;
+}
+
+img{
+    padding: 15px;
+    margin: 15px;
+}
+.banner p{
+    color: aqua;
+    padding-top: 25px;
+    margin: 15px;
+    font-weight: 700;
+    font-size: 25px;
